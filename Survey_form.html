@@ -1,0 +1,54 @@
+<html>
+
+<body id="body">
+  <link rel="stylesheet" href="Survey_form.css" <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <main id="main">
+    <h1 id="title">Cowin Vaccination Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="https://d.docs.live.net/8e5443b6259a1405/Documents/Book1.xlsx" id="survey-form">
+      <div id="div1">
+        <label id="name-label" for="name"><b>Name :</label><br>
+        <input type="text" id="name" placeholder="Enter your Name" required><br>
+        <label id="email-label" for="email">Email :</label><br>
+        <input type="email" id="email" placeholder="Enter your Email" required><br>
+        <label id="number-label" for="number">Age :</label><br>
+        <input type="number" id="number" placeholder="Enter you Age" min="18" max="150" required><br>
+      </div>
+      <div id="div2">
+        <p id="dropdown-label">Which option best describes your current role :</p>
+        <select id="dropdown" placeholder="Select current role">
+          <option disabled selected value>Select current Role</option>
+          <option vale="student">Student</option>
+          <option vale="Full time Job">Full time Job</option>
+          <option vale="Full time Learner">Full time Learner</o>
+          <option vale="Business Man">Business Man</option>
+          <option vale="Retired">Retired</option>
+          <option vale="Army">Army</option>
+        </select>
+      </div>
+      <div id="div3">
+        <label id="radio-label" for="radio">Have you taken Covid-19 Vaccine?</label><br>
+        <input type="radio" id="radio-1" name="radio" value="Yes">YES<br>
+        <input type="radio" id="radio-2" name="radio" value="No">NO<br>
+        <input type="radio" id="radio-3" name="radio" value="Dont want to take">Dont want to take<br>
+      </div>
+      <div id="div4">
+        <label id="vaccine-label" for="vaccine">Which Vaccine would you prefer?</label><br>
+        <input type="checkbox" value="Covishield">Covishield<br>
+        <input type="checkbox" value="Covaxin">Covaxin<br>
+        <input type="checkbox" value="Sputnik-V">Sputnik-V<br>
+      </div>
+      <div id="div5">
+        <p id="p1">Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comments here" id="textarea"></textarea>
+      </div>
+      <div id="div6">
+        <button type="submit" id="submit"><b>Submit</b></button>
+      </div>
+    </form>
+    <footer id="footer"><b>&copy; Made by Nishant Shinde (BE-Comp Eng)</b></footer>
+  </main>
+</body>
+
+</html>
