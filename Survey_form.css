@@ -1,0 +1,164 @@
+#body {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.85),
+        rgba(136, 136, 206, 0.6)),
+  url('https://images.livemint.com/img/2021/05/12/1600x900/2021-05-12T102924Z_2_LYNXMPEH4B0NG_RTROPTP_3_HEALTH-CORONAVIRUS-VALNEVA-EU_1620820508490_1620820542016.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  
+  #main {
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2ex 0ex 0ex 0ex;
+    color: white;
+  }
+  
+  #description {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0ex 0ex 0ex 0ex;
+    color: white;
+  }
+  
+  #survey-form {
+    margin: 4ex 40ex 0ex 40ex;
+    background: rgba(23,67,88,0.5);
+    border-radius: 5px;
+    padding-top: 50px;
+    height: 1150px;
+    width: 850px;
+  }
+  
+  #div1 {
+    margin: 0ex 70ex 0ex 0ex;
+  }
+  
+  #name-label {
+    margin: 0ex 0ex 0ex 4ex;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #name {
+    
+    margin: 2.5ex 0ex 0ex 6.5ex;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+  }
+  
+  #email-label {
+    margin: 2ex 0ex 0ex 4ex;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #email {
+    margin: 2.5ex 0ex 0ex 6.5ex;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+    background-clip: padding-box;
+  }
+  
+  #number-label {
+    margin: 1.5ex 0ex 0ex 4ex;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #number {
+    margin: 2.5ex 0ex 0ex 6.5ex;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+  }
+  
+  #div2 {
+    margin: 0ex 70ex 0ex 0ex;
+  }
+  
+  #dropdown-label {
+    margin: 2.5ex 0ex 0ex 4ex;
+    padding: 0px 0px 0px 0px;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #dropdown {
+    margin: 2ex 0ex 0ex 6.5ex;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+  }
+  
+  #div3 {
+    margin: 3.5ex 0ex 0ex 4.8ex;
+    color: white;
+  }
+  
+  #radio-label {
+    margin: 0ex 0ex 0ex 0ex;
+    padding: 0px 20px 20px 0px;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #div4 {
+    margin: 1ex 0ex 0ex 4.5ex;
+    color: white;
+  }
+  
+  #vaccine-label {
+    margin: 2.5ex 0ex 1ex 0ex;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #div5 {
+    margin: 3ex 0ex 0ex 4.5ex;
+  }
+  
+  #p1 {
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  #textarea {
+    height: 150px;
+    width: 700px;
+  }
+  
+  #div6{
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 40px;
+    
+  }
+  
+  #submit {
+    padding: 0.75rem;
+    width: 100%;
+    background: #32CD32;
+    color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem
+  }
+  
+  #footer {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
